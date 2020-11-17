@@ -1,7 +1,7 @@
 # Создать текстовый файл (не программно), сохранить в нем несколько строк,
 # выполнить подсчет количества строк, поличества слов в каждой строке.
 
-with open('array_list.txt', 'r', encoding='UTF-8') as str_count:
+with open('list_practice_2.txt', 'r', encoding='UTF-8') as str_count:
     str_list = str_count.readlines()
     print(f'Содержимое файла:\n{str_list}\nСтрок в файле: {len(str_list)}')
     ind = 1

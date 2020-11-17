@@ -4,7 +4,7 @@
 
 import os
 
-with open('input_list.txt', 'w') as file_input:
+with open('list_practice_1.txt', 'w') as file_input:
     while True:
         w_str = input('Введите строку: ')
         if w_str == '':
