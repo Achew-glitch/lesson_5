@@ -12,4 +12,5 @@ with open('list_practice_6.txt', 'r', encoding='utf-8') as file_str:
                 time_summary += int(i_el.split('(')[0])
 
         academic_disciplines.update({s_el[0][:-1] : time_summary})
-        print(academic_disciplines)
+
+print(academic_disciplines)
